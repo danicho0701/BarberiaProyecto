@@ -1,0 +1,94 @@
+1. Nombre del estudiante:
+Daniel Fernández
+
+2. Título del caso:
+Análisis del tiempo de atención de clientes en una barbería.
+
+3. Formulación del problema:
+
+En una barbería se debe analizar el tiempo que se tarda en ser atendido a cada cliente, 
+con el propósito de conocer el comportamiento de los tiempos de atención hacia ellos e identificar 
+posibles valores que se alejen considerablemente del comportamiento habitual
+
+Para realizar este análisis se va utilizar datos correspondientes a diferentes clientes 
+y se van aplicarán métodos estadísticos para obtener información sobre el comportamiento de este servicio.
+
+4. Variable principal:
+
+La variable principal de estudio es el tiempo de atención de cada cliente en la barbería, medido en minutos. 
+Esta variable permitirá analizar cuánto tiempo tarda, en promedio, la atención de los clientes y observar 
+las variaciones existentes entre los diferentes servicios.
+
+5. Supuestos:
+
+- Los datos corresponden a diferentes clientes atendidos en mi barbería.
+- El tiempo de atención se mide en los minutos.
+- Cada observación va corresponder a un cliente.
+- Los datos utilizados representaran un escenario simulado de atención en una barbería.
+- Se considera que los tiempos registrados son independientes entre sí.
+
+6. Estadísticos descriptivos:
+
+Cantidad de datos: 30
+
+Media: 39.93 minutos
+
+Mediana: 38.5 minutos
+
+Mínimo: 28 minutos
+
+Máximo: 100 minutos
+
+Rango: 72 minutos
+
+Varianza: 156.89
+
+Desviación estándar: 12.53 minutos
+
+
+7. Valores atípicos (Outliers) detectados con Z-Score:
+
+Se utilizó el criterio de Z-Score con un límite de |Z| > 3 para identificar valores atípicos.
+
+Se detectó un valor atípico:
+
+- Cliente 30
+- Tiempo de atención: 100 minutos
+- Z-Score: 4.80
+
+Por lo tanto, el tiempo de atención de 100 minutos se considera un valor atípico
+
+
+8. Análisis descriptivo de la variable:
+
+Los tiempos de atención se encuentran principalmente entre 28 y 47 minutos. La media es de 
+39.93 minutos y la mediana es de 38.5 minutos, indicando que el tiempo habitual de atención 
+se encuentra aproximadamente alrededor de los 40 minutos.
+
+La desviación estándar es de 12.53 minutos, lo que muestra que existe variación entre los 
+tiempos de atención. El valor de 100 minutos aumenta considerablemente el rango y la 
+variabilidad de los datos.
+
+
+9. Interpretación técnica:
+
+La mayoría de los clientes presentan tiempos de atención cercanos al promedio. Sin embargo, 
+el cliente 30 presenta un tiempo de 100 minutos, el cual es considerablemente mayor que los 
+demás registros.
+
+Su Z-Score de 4.80 supera el límite establecido de |Z| > 3, por lo que se clasifica como un 
+valor atípico. Debido a que los datos corresponden a un escenario simulado, no es posible 
+determinar la causa exacta de este comportamiento.
+
+
+10. Conclusión:
+
+Se concluye que el tiempo de atención habitual de los clientes de la barbería es cercano a 
+los 40 minutos.
+
+De los 30 datos analizados, se identificó un valor atípico correspondiente al cliente 30, 
+con un tiempo de atención de 100 minutos y un Z-Score de 4.80
+
+El análisis permite identificar comportamientos inusuales en los tiempos de atención y, en 
+un caso real, estos resultados podrían utilizarse para revisar situaciones que generen 
+tiempos de servicio considerablemente mayores.
